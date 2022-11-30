@@ -102,7 +102,7 @@ print("3. exit game")
 
 option = input()
 
-if option == "start":
+if option == "+":
     print("game started")
 elif option == "load":
     print("game loading")
