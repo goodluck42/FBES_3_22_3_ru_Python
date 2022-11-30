@@ -95,3 +95,19 @@ if age == 42:
     print("age equals 42")
 else:
     print("age not equals 42")
+
+print("1. start game")
+print("2. load game")
+print("3. exit game")
+
+option = input()
+
+if option == "start":
+    print("game started")
+elif option == "load":
+    print("game loading")
+elif option == "exit":
+    print("exiting game")
+else:
+    print("Invalid command")
+
