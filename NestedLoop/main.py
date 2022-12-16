@@ -70,9 +70,11 @@ i = 0
 
 while i < 5:
     j = 0
-
     while j < 5:
-        print("*  ", end="")
+        if i == 2 or j == 2:
+            print("   ", end="")
+        else:
+            print("*  ", end="")
         j += 1
 
     print()
@@ -81,8 +83,8 @@ while i < 5:
 
 
 # Do not do that
-print("* * * * *")
-print("*       *")
-print("*       *")
-print("*       *")
-print("* * * * *")
+# print("* * * * *")
+# print("*       *")
+# print("*       *")
+# print("*       *")
+# print("* * * * *")
