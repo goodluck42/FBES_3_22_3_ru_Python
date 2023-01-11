@@ -58,3 +58,15 @@
 #
 # for i in numbers:
 #     print(i)
+
+from random import randint
+
+numbers = []
+
+for i in range(10):
+    random_value = randint(-100, 100)
+
+    numbers.append(random_value)
+
+print(numbers)
+
