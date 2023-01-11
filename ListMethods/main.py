@@ -204,3 +204,11 @@ print("slice5 =", slice5)
 slice5 = numbers[::-1]
 
 print("slice5 =", slice5)
+
+slice6 = numbers[1:5:2]
+
+print("slice6 =", slice6)
+
+## SLICE = RANGE
+for i in range(1, 5, 2):
+    print(i)
