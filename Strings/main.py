@@ -112,6 +112,11 @@ text = "Hello 123"
 if text.isdigit():
     print("IT IS DIGIT")
 
+# text.isalnum()
+
+
+
+
 
 for char in text:
     print(type(char))
