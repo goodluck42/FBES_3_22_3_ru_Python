@@ -104,8 +104,28 @@
 
 ## FIND
 
-text = "hello friend how are you"
+# text = "hello friend how are you"
+#
+# idx = text.find("friend")
+#
+# print(idx)
 
-idx = text.find("friend")
+while True:
+    print("1. Start game")
+    print("2. Load game")
+    print("3. Settings")
+    print("4. Exit")
 
-print(idx)
+    option = int(input())
+
+    if option == 1:
+        print("Game starting")
+    elif option == 2:
+        print("Loading game")
+    elif option == 3:
+        print("Settings...")
+    elif option == 4:
+        print("Closing game")
+        break
+    else:
+        print("Incorrect input")
