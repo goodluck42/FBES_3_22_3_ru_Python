@@ -31,3 +31,10 @@ b = int(input())
 result1 = divide(a, b)
 
 print(result1)
+
+
+
+
+# res = is_even(20)
+#
+# print(res)
