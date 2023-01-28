@@ -46,13 +46,15 @@
 #
 # cook("Вода", "Морковь", "Чеснок", "Зелень")
 #
-def fn(*args):
-    for item in args:
-        print(item)
-
-values = [10, 20, 30, 40, 50]
-fn(values)  # fn([10, 20, 30, 40, 50])
-fn(*values)  # fn(10, 20, 30, 40, 50)
+# def fn(*args):
+#     for item in args:
+#         print(item)
+#
+#
+# fn(10, 20, 30, 40, 50)
+# values = [10, 20, 30, 40, 50]
+# fn(values)  # fn([10, 20, 30, 40, 50])
+# fn(*values)  # fn(10, 20, 30, 40, 50)
 
 
 # def fn(a, b, c):
